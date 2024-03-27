@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --Gray-100: #424143;
+    --Gray-90: #595A5C;
+    --Gray-80: #6E6F72;
+    --Gray-70: #6E6F72;
+    --Gray-60: #818386;
+    --Gray-50: #949698;
+    --Gray-40: #A7AAAC;
+    --Gray-30: #BCBEC0;
+    --Gray-20: #D2D3D4;
+    --Gray-10:#E6E8EA;
+    --Gray-0: #F3F5F5;
+    --Primary: #4A5291;
+    --Secondary: #E9545E;
+  }
+  .tieude{
+    color: var(--Primary);
+  }
+
+
+#Bg{
+    background-image: url('https://s3-alpha-sig.figma.com/img/e14b/dd03/16cef719e34f8433631a3c2521799f49?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=i8qOsK~KUKKzoQ3Udun0aSsBmxjTUx2k3-bNGyVExmSkcF5rtt2-Yqmr9xh-PEiaFpwsVCrAwoIWfT5erHHNTvCbVGlnsZpRCyEjvREgOlkZI2RY3UVr2GOUVwUt4tjI56tHhOPQ84T5YDXt5uhLh03v3Pq8EQBbN1lngsmcX1ax1jIlDfM-YVDH157QJrjsRObrnNdVL5yPfXsEy7okV2o9GVb-1s6xyV3DhBMkzACAksyVw~MiQSU8iBBWYEy9wiytiPRkENCNcly1h-Z7CaRPeHayuBsw0QQkdlLIaDYvPjjWHwLjJrKEwAcU59tIiY3oOzcJ~L-CySI4gFPrKQ__');
+    background-size: cover;
+    background-position: center;
+    width:  100%;
+    height: 300px;
+}

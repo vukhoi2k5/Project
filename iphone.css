@@ -1,0 +1,143 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --Gray-100: #424143;
+    --Gray-90: #595A5C;
+    --Gray-80: #6E6F72;
+    --Gray-70: #6E6F72;
+    --Gray-60: #818386;
+    --Gray-50: #949698;
+    --Gray-40: #A7AAAC;
+    --Gray-30: #BCBEC0;
+    --Gray-20: #D2D3D4;
+    --Gray-10:#E6E8EA;
+    --Gray-0: #F3F5F5;
+    --Primary: #4A5291;
+    --Secondary: #E9545E;
+  }
+  
+
+.container-fuil{
+}
+#maumay{
+    width: 1400px;
+    display: flex;
+
+}
+.anhtong,.thongtin{
+    flex: 1;
+}
+#anh1,
+#anh2 ,
+#anh3,
+#anh4{
+    border-radius: 16px;
+    width:142px;
+    height:140px
+}
+#anh2,
+#anh3,
+#anh4
+{
+    margin-left: 12px;
+
+}
+#anh1{
+    
+    background-image: url('https://s3-alpha-sig.figma.com/img/641d/fbd3/f9d6be26c44dc6e0ca18170d04b52f15?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C94CY7b2~Z1VB5GGTtmVqXE75oDzeJE8J0r3wGYjH~XjOn6L6ukBM4frrgEmLF8NnRrwVQbSyEGaHvK7yUamOn--OEhyMdr3VsLsLeMJh4qgHNMQ-yOeEgAjzJPZkhiVcyQkLQXw6YyNjhkKlTsSYNoaB~l5beFrXNJIV4mBv5ubKs1wNePEfJc6BGbxtRAXVD6ZTKzLSH-yC1yutVS-0n-mZPsFlueLUgW1lqIt4QTlwlO1s6Lce0VWzJ4lLN6OKY07wRuUA8BoQYl0dPMHkCtQjSWcdCxEcAnaOr7gcazaAD6N8tlCOb8IvlD9W8x28if1zpFgwkbGMZNMaXvb0A__');
+    background-size: cover;
+    background-position: center;
+}
+#anh2{
+    
+    background-image: url('https://s3-alpha-sig.figma.com/img/641d/fbd3/f9d6be26c44dc6e0ca18170d04b52f15?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=C94CY7b2~Z1VB5GGTtmVqXE75oDzeJE8J0r3wGYjH~XjOn6L6ukBM4frrgEmLF8NnRrwVQbSyEGaHvK7yUamOn--OEhyMdr3VsLsLeMJh4qgHNMQ-yOeEgAjzJPZkhiVcyQkLQXw6YyNjhkKlTsSYNoaB~l5beFrXNJIV4mBv5ubKs1wNePEfJc6BGbxtRAXVD6ZTKzLSH-yC1yutVS-0n-mZPsFlueLUgW1lqIt4QTlwlO1s6Lce0VWzJ4lLN6OKY07wRuUA8BoQYl0dPMHkCtQjSWcdCxEcAnaOr7gcazaAD6N8tlCOb8IvlD9W8x28if1zpFgwkbGMZNMaXvb0A__');
+    background-size: cover;
+    background-position: center;
+}#anh3{
+    
+    background-image: url('https://s3-alpha-sig.figma.com/img/bee4/90f2/65cce5f13ebc50a0e6655e5812fc8cda?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WVpyn-YOiGrobMYbOd4JhMFQ1bIk2f1Y4cRvePLa4t3Mp7XIucABJEL5AUyQ6fnHROQMNkn6ISrMB1rcR98Nhob-b~jXOk7VCbjkXaY-vLJljj8-IsnNo7ZaTE0bp8ybEufXOM4xs4t-0RVs4KO1onwFQ9UUHbDnq7Ob2uAVZr3IxfJta4~vbJLp40JeCUx7MFmla7Khh3AHoJ3mwlavQQtLWT5f8EiBYY-CqizGW4XRhMToR9~TGSNsy6qF0ISAlX7l35278TNW8qL6lDBAH4MpkiBs83v~LasxDkID-O-F5y4447LEdJuBxaCSQ9Pg0ucRdgnXm032iHELwPjkjA__');
+    background-size: cover;
+    background-position: center;
+}#anh4{
+    
+    background-image: url('https://s3-alpha-sig.figma.com/img/bee4/90f2/65cce5f13ebc50a0e6655e5812fc8cda?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WVpyn-YOiGrobMYbOd4JhMFQ1bIk2f1Y4cRvePLa4t3Mp7XIucABJEL5AUyQ6fnHROQMNkn6ISrMB1rcR98Nhob-b~jXOk7VCbjkXaY-vLJljj8-IsnNo7ZaTE0bp8ybEufXOM4xs4t-0RVs4KO1onwFQ9UUHbDnq7Ob2uAVZr3IxfJta4~vbJLp40JeCUx7MFmla7Khh3AHoJ3mwlavQQtLWT5f8EiBYY-CqizGW4XRhMToR9~TGSNsy6qF0ISAlX7l35278TNW8qL6lDBAH4MpkiBs83v~LasxDkID-O-F5y4447LEdJuBxaCSQ9Pg0ucRdgnXm032iHELwPjkjA__');
+    background-size: cover;
+    background-position: center;
+}
+.mau{
+    width: 32px;
+    height:32px;
+    margin-right: 10px;
+    border-radius:8px;
+    border: none;
+    transition: transform 0.3 ease;
+}
+.mau:hover{
+    border: 2px solid black ;
+    transform: scale(1.2);
+}
+.mau.active{
+    border: 2px solid black ;
+    transform: scale(1.2);
+}
+
+#mau1{
+    background-color: aqua;
+}
+#mau2{
+    background-color: green;
+}
+#mau3{
+    background-color: cadetblue;
+}
+#mau4{
+    background-color: darkgray;
+}
+.giadagiam , .giamgia{
+    
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+#thea1{
+    color:#4A5291 ;
+    text-decoration:underline;
+    text-decoration-thickness: 3px;
+}
+.nut button{
+    height: 60px;
+    width: 150px;
+
+}
+.sp button{
+    margin-top: 20px;
+    width: auto;
+    height: 50px;
+    margin-left: 20px;
+}
+.thongtinchitiet{   
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.thongtinchitiet a{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.thongtinchitiet a:hover{
+    color:#4A5291;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+#Peformance,
+#Question{
+    display: none;
+}
